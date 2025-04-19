@@ -1,0 +1,1129 @@
+{
+    "project": {
+        "name": "Tvain Project"
+    },
+    "variables": {},
+    "variableDefs": {
+        "Gold": {
+            "type": "number",
+            "enumValues": [],
+            "value": "100"
+        },
+        "Fool": {
+            "type": "number",
+            "enumValues": [],
+            "value": "100"
+        },
+        "met_kiri": {
+            "type": "int",
+            "enumValues": [],
+            "value": 0
+        },
+        "bought_soup": {
+            "type": "int",
+            "enumValues": [],
+            "value": 0
+        },
+        "met_kamino": {
+            "type": "int",
+            "enumValues": [],
+            "value": 0
+        }
+    },
+    "currentSaveState": {
+        "story": "df3fa181-527b-4326-8264-d38909673bdb",
+        "storyBefore": "main",
+        "cardBefore": "start",
+        "card": "start"
+    },
+    "cardTypes": [
+        "Basic",
+        "Dialogue",
+        "Scene",
+        "Object"
+    ],
+    "languages": [
+        "en",
+        "de"
+    ],
+    "currentLanguage": "en",
+    "stories": {
+        "main": {
+            "info": {
+                "name": "Main",
+                "canvasWidth": 800,
+                "canvasHeight": 600,
+                "colour": "red"
+            },
+            "ops": {},
+            "logic": {},
+            "cards": {
+                "start": {
+                    "cardType": "basic",
+                    "nodeType": "start",
+                    "description": "Start",
+                    "custom": [],
+                    "paragraphs": [],
+                    "links": [
+                        {
+                            "target": "dcdb481d-b7ca-4fc4-afe2-fb2f507010ad"
+                        }
+                    ],
+                    "editor": {
+                        "left": 96,
+                        "top": 96
+                    }
+                },
+                "end": {
+                    "cardType": "basic",
+                    "nodeType": "end",
+                    "description": "End",
+                    "custom": [],
+                    "paragraphs": [],
+                    "links": [
+                        {
+                            "target": "end"
+                        }
+                    ],
+                    "editor": {
+                        "left": 1416,
+                        "top": 264
+                    }
+                },
+                "91355d27-9fef-456a-8014-e3792970d973": {
+                    "description": "",
+                    "custom": [
+                        {
+                            "customKey": "portrait",
+                            "customValue": "elder"
+                        },
+                        {
+                            "customKey": "topstyle",
+                            "customValue": "dialogue"
+                        }
+                    ],
+                    "paragraphs": [
+                        {
+                            "text": "0445878e-36c0-4519-bb64-80a0777ceaff",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "0bbeb5f0-2ad1-4525-a67e-9021d349f20b",
+                            "linkText": "8586ee80-21bc-420f-b318-5b20012bdfda",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 336,
+                        "top": 96
+                    }
+                },
+                "0bbeb5f0-2ad1-4525-a67e-9021d349f20b": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "93a54dee-4102-46bd-8f32-cf31a271b0eb",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "9634b215-aa4f-49b7-ae71-a3b06dcae144",
+                            "linkText": "fac0188f-cf16-46e6-b7bd-9a216d616898",
+                            "conditionAndOr": "and",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "2dc96c2e-e617-4711-a246-095da33a59a2",
+                            "linkText": "e6c0d6af-075f-44d7-ae8c-3869b7f20183",
+                            "conditionAndOr": "and",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 336,
+                        "top": 216
+                    }
+                },
+                "ef927c82-f5f4-48d3-9f7a-ef489b4973fa": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "7f6a3a9c-c203-458b-b4ac-1c026365aedc",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "ed4ea07c-6e78-4810-a7bd-f5ce3bf30d0e",
+                            "linkText": "f727b61c-c3a6-4dd1-8ded-5a919009b0bf",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 576,
+                        "top": 120
+                    }
+                },
+                "2dc96c2e-e617-4711-a246-095da33a59a2": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "bdaaf902-d7c9-45b4-aa46-ee3ff2f566f8",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "980e5f30-a0b3-4217-89a9-181d43bc8a89",
+                            "linkText": "7c74b2cd-63f7-49d6-a986-8942f810af14",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 576,
+                        "top": 312
+                    }
+                },
+                "ed4ea07c-6e78-4810-a7bd-f5ce3bf30d0e": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "4ecd641b-dede-4879-b026-77fb3fc97e40",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "980e5f30-a0b3-4217-89a9-181d43bc8a89",
+                            "linkText": "2ef11b18-34de-442a-892d-8021831b0139",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 576,
+                        "top": 216
+                    }
+                },
+                "980e5f30-a0b3-4217-89a9-181d43bc8a89": {
+                    "description": "",
+                    "custom": [
+                        {
+                            "customKey": "topstyle",
+                            "customValue": "narration"
+                        }
+                    ],
+                    "paragraphs": [
+                        {
+                            "text": "fd5a99d5-82b4-4688-998c-9a7f949f765a",
+                            "conditions": []
+                        },
+                        {
+                            "text": "c9634dac-cb32-44dd-8de5-65844a8bcc0b",
+                            "conditions": [
+                                {
+                                    "variable": "met_kamino",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "e9e3ab55-8e19-4a5f-82dd-3b77015f8759",
+                            "conditions": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "588e347d-db5e-4d84-8b18-135ec4f8e8f3",
+                            "conditions": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "25a25b97-3963-4ad9-805e-d0a50773b867",
+                            "conditions": [
+                                {
+                                    "variable": "met_kamino",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "2bc4d167-feeb-4270-a9c4-50a010a914ef",
+                            "linkText": "fa13b453-e927-4781-86f0-57a6f7932c7c",
+                            "conditions": [
+                                {
+                                    "variable": "met_kamino",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ],
+                            "actions": []
+                        },
+                        {
+                            "target": "cae917b5-d253-4bc2-b406-833e9c94f881",
+                            "linkText": "1c92783e-4cec-4e38-8d90-e51178d45140",
+                            "conditions": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ],
+                            "actions": []
+                        },
+                        {
+                            "target": "cae917b5-d253-4bc2-b406-833e9c94f881",
+                            "linkText": "3bffd1f7-b390-4464-bf75-28983c4052d1",
+                            "conditions": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ],
+                            "actions": []
+                        },
+                        {
+                            "target": "2bc4d167-feeb-4270-a9c4-50a010a914ef",
+                            "linkText": "ef44b67f-2bc0-46ee-a737-8a063c7da782",
+                            "conditions": [
+                                {
+                                    "variable": "met_kamino",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 816,
+                        "top": 264
+                    }
+                },
+                "cae917b5-d253-4bc2-b406-833e9c94f881": {
+                    "nodeType": "detour",
+                    "description": "Storylet",
+                    "custom": [],
+                    "tags": "",
+                    "afterDetour": "980e5f30-a0b3-4217-89a9-181d43bc8a89",
+                    "paragraphs": [],
+                    "links": [
+                        {
+                            "target": "980e5f30-a0b3-4217-89a9-181d43bc8a89"
+                        }
+                    ],
+                    "detours": [
+                        {
+                            "target": "df3fa181-527b-4326-8264-d38909673bdb",
+                            "linkText": "To the pear",
+                            "conditionAndOr": "and",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 1176,
+                        "top": 216
+                    }
+                },
+                "be872b3e-69d1-435b-8d0c-2fa1be5571bb": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [],
+                    "nodeType": "card",
+                    "links": [],
+                    "editor": {
+                        "left": 476,
+                        "top": -18
+                    }
+                },
+                "ec4808da-e9a9-44d9-b495-6f37223bb4f1": {
+                    "description": "",
+                    "custom": [
+                        {
+                            "customKey": "portrait",
+                            "customValue": "elder"
+                        },
+                        {
+                            "customKey": "topstyle",
+                            "customValue": "narration"
+                        }
+                    ],
+                    "paragraphs": [
+                        {
+                            "text": "ae41799d-2781-48ca-906e-26a66ae20a93",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "91355d27-9fef-456a-8014-e3792970d973",
+                            "linkText": "1afeb28b-f22c-45a1-8f69-be2392ffdb31",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 96,
+                        "top": 240
+                    }
+                },
+                "dcdb481d-b7ca-4fc4-afe2-fb2f507010ad": {
+                    "nodeType": "operator",
+                    "description": "Operator",
+                    "custom": [],
+                    "tags": "",
+                    "links": [
+                        {
+                            "target": "ec4808da-e9a9-44d9-b495-6f37223bb4f1",
+                            "linkText": "na",
+                            "operations": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "0"
+                                },
+                                {
+                                    "variable": "bought_soup",
+                                    "operator": "eq",
+                                    "value": "0"
+                                },
+                                {
+                                    "variable": "met_kamino",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "editor": {
+                        "left": 96,
+                        "top": 168
+                    }
+                },
+                "2bc4d167-feeb-4270-a9c4-50a010a914ef": {
+                    "nodeType": "detour",
+                    "description": "Storylet",
+                    "custom": [],
+                    "tags": "",
+                    "afterDetour": "980e5f30-a0b3-4217-89a9-181d43bc8a89",
+                    "paragraphs": [],
+                    "links": [
+                        {
+                            "target": "980e5f30-a0b3-4217-89a9-181d43bc8a89"
+                        }
+                    ],
+                    "detours": [
+                        {
+                            "target": "427d3bb5-9b84-4c63-ba57-8cf729610f97",
+                            "linkText": "To the pear",
+                            "conditionAndOr": "and",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 1176,
+                        "top": 336
+                    }
+                },
+                "9634b215-aa4f-49b7-ae71-a3b06dcae144": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "7791f4bf-e71c-46d4-a976-29aa348549ca",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "ef927c82-f5f4-48d3-9f7a-ef489b4973fa",
+                            "linkText": "e9079666-da4d-412c-b8c7-d3c1abcdadb1",
+                            "conditionAndOr": "and",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 336,
+                        "top": 336
+                    }
+                }
+            }
+        },
+        "df3fa181-527b-4326-8264-d38909673bdb": {
+            "info": {
+                "name": "86f21889-dca8-40b2-bea7-aed1ffce2ddc",
+                "colour": "red"
+            },
+            "cards": {
+                "start": {
+                    "description": "Start",
+                    "tags": "",
+                    "paragraphs": [],
+                    "nodeType": "start",
+                    "links": [
+                        {
+                            "target": "06edc8c5-d840-4055-9ef1-43c8a8af9987",
+                            "linkText": "na",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 96,
+                        "top": 96
+                    }
+                },
+                "end": {
+                    "description": "End",
+                    "tags": "",
+                    "paragraphs": [],
+                    "nodeType": "end",
+                    "prevStory": "",
+                    "detourId": "",
+                    "links": [
+                        {
+                            "target": "end",
+                            "linkText": "na",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 1536,
+                        "top": 528
+                    }
+                },
+                "f366a014-075e-4ddb-bd9b-cb4e3947b224": {
+                    "description": "",
+                    "custom": [
+                        {
+                            "customKey": "portrait",
+                            "customValue": "kiri"
+                        },
+                        {
+                            "customKey": "topstyle",
+                            "customValue": "dialogue"
+                        }
+                    ],
+                    "paragraphs": [
+                        {
+                            "text": "ff7b99e3-3aed-452b-9b45-ac1cda19ac39",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "deafca97-63d1-468f-9f3e-13692dbadbf5",
+                            "linkText": "adcd9beb-c418-49e7-940d-3b24a6416296",
+                            "conditionAndOr": "and",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "ca451d18-d16d-4a80-aa51-46ac4d51c38c",
+                            "linkText": "5c9f034d-ca11-4839-92df-7115dd9c7bdc",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 456,
+                        "top": 96
+                    }
+                },
+                "bc9130c1-b506-4205-8131-242335a094ea": {
+                    "nodeType": "operator",
+                    "description": "Operator",
+                    "custom": [],
+                    "tags": "",
+                    "links": [
+                        {
+                            "target": "end",
+                            "linkText": "na",
+                            "operations": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "editor": {
+                        "left": 1536,
+                        "top": 456
+                    }
+                },
+                "deafca97-63d1-468f-9f3e-13692dbadbf5": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "e1836639-6afe-44d2-a08f-b6233f1eb718",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "d906eb9f-9e47-47e1-9578-82e378081327",
+                            "linkText": "7a484698-7b31-4e2d-9aa7-d7f4e4e021f3",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "8405f7dd-3c12-4d2e-b247-738c557e0cad",
+                            "linkText": "1172afd4-9780-40be-be4f-79b841535772",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "8405f7dd-3c12-4d2e-b247-738c557e0cad",
+                            "linkText": "5ebf3b16-46c6-4feb-aeb0-f715c6c28a3f",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 936,
+                        "top": 120
+                    }
+                },
+                "ca451d18-d16d-4a80-aa51-46ac4d51c38c": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "485c52a8-7793-4499-8f23-93b6fc7f846f",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "deafca97-63d1-468f-9f3e-13692dbadbf5",
+                            "linkText": "94daa50a-7b29-4411-86eb-ca60d189d519",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "2cf7aba1-18a1-47db-b0a8-04aceacac20b",
+                            "linkText": "c2e89526-3481-4479-a29e-360b546427b7",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 696,
+                        "top": 168
+                    }
+                },
+                "2cf7aba1-18a1-47db-b0a8-04aceacac20b": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "2c22cde1-a77e-4625-9de6-7e16a65ba79a",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "bc9130c1-b506-4205-8131-242335a094ea",
+                            "linkText": "0cb55eea-efc5-4dc3-80c5-efecf72af771",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 936,
+                        "top": 288
+                    }
+                },
+                "06edc8c5-d840-4055-9ef1-43c8a8af9987": {
+                    "nodeType": "logic",
+                    "description": "Logic",
+                    "custom": [],
+                    "tags": "",
+                    "links": [
+                        {
+                            "target": "f366a014-075e-4ddb-bd9b-cb4e3947b224",
+                            "linkText": "8068ea80-fd91-46fa-b469-0b2ba0ca33d7",
+                            "conditions": [
+                                {
+                                    "variable": "met_kiri",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ],
+                            "actions": []
+                        },
+                        {
+                            "target": "3d1f65d9-1bd6-4894-a34b-0f639a3e52fa",
+                            "linkText": "d3e97cac-d320-41b1-8e17-7b5396494be4",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 96,
+                        "top": 120
+                    }
+                },
+                "3d1f65d9-1bd6-4894-a34b-0f639a3e52fa": {
+                    "description": "",
+                    "custom": [
+                        {
+                            "customKey": "portrait",
+                            "customValue": "kiri"
+                        },
+                        {
+                            "customKey": "topstyle",
+                            "customValue": "dialogue"
+                        }
+                    ],
+                    "paragraphs": [
+                        {
+                            "text": "934aa53f-3f72-4679-b435-8084a39a4d3a",
+                            "conditions": []
+                        },
+                        {
+                            "text": "cd2b360a-b643-4e92-9a6e-f43d07971cbb",
+                            "conditions": [
+                                {
+                                    "variable": "bought_soup",
+                                    "operator": "eq",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "3808a3c3-4740-44cd-adfc-74ee040275dd",
+                            "conditions": [
+                                {
+                                    "variable": "bought_soup",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "2cf7aba1-18a1-47db-b0a8-04aceacac20b",
+                            "linkText": "9babdbf0-0308-476a-b501-c6863d29c99d",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "deafca97-63d1-468f-9f3e-13692dbadbf5",
+                            "linkText": "7228d9e4-9e06-41e0-b380-97657165cfb7",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 696,
+                        "top": 264
+                    }
+                },
+                "d906eb9f-9e47-47e1-9578-82e378081327": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "5d163044-67fc-4eef-9f7c-4cc784b6270f",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "8405f7dd-3c12-4d2e-b247-738c557e0cad",
+                            "linkText": "a0058cdf-b153-4526-9c6b-2063d309eb62",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "8405f7dd-3c12-4d2e-b247-738c557e0cad",
+                            "linkText": "160c4cc9-1749-4b46-90ce-d1d04ca3daab",
+                            "conditions": [],
+                            "actions": []
+                        },
+                        {
+                            "target": "8405f7dd-3c12-4d2e-b247-738c557e0cad",
+                            "linkText": "6fdb7e95-252c-481a-be02-30d272b36eb5",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 1176,
+                        "top": 96
+                    }
+                },
+                "8405f7dd-3c12-4d2e-b247-738c557e0cad": {
+                    "description": "",
+                    "custom": [],
+                    "paragraphs": [
+                        {
+                            "text": "e4aeec7b-138c-4afc-896f-95174310acb7",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "71193ff6-dce5-4e51-bcc9-66b47efbf66e",
+                            "linkText": "362d79b8-fb88-45f6-9642-f280daf6bc7d",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 1392,
+                        "top": 264
+                    }
+                },
+                "71193ff6-dce5-4e51-bcc9-66b47efbf66e": {
+                    "nodeType": "operator",
+                    "description": "Operator",
+                    "custom": [],
+                    "tags": "",
+                    "links": [
+                        {
+                            "target": "bc9130c1-b506-4205-8131-242335a094ea",
+                            "linkText": "na",
+                            "operations": [
+                                {
+                                    "variable": "bought_soup",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "editor": {
+                        "left": 1536,
+                        "top": 384
+                    }
+                }
+            }
+        },
+        "427d3bb5-9b84-4c63-ba57-8cf729610f97": {
+            "info": {
+                "name": "6e182207-c2ab-428a-81dd-097ceaa78d00",
+                "colour": "red"
+            },
+            "cards": {
+                "start": {
+                    "description": "Start",
+                    "tags": "",
+                    "paragraphs": [],
+                    "nodeType": "start",
+                    "links": [
+                        {
+                            "target": "3b4dd3fe-cac8-45cc-9dd5-0efbf259f3ac",
+                            "linkText": "na",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 96,
+                        "top": 192
+                    }
+                },
+                "end": {
+                    "description": "End",
+                    "tags": "",
+                    "paragraphs": [],
+                    "nodeType": "end",
+                    "prevStory": "",
+                    "detourId": "",
+                    "links": [
+                        {
+                            "target": "end",
+                            "linkText": "na",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 816,
+                        "top": 216
+                    }
+                },
+                "ca1f8b41-dfc8-4a73-befc-f5adba7101ae": {
+                    "nodeType": "operator",
+                    "description": "Operator",
+                    "custom": [],
+                    "tags": "",
+                    "links": [
+                        {
+                            "target": "end",
+                            "linkText": "na",
+                            "operations": [
+                                {
+                                    "variable": "met_kamino",
+                                    "operator": "eq",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "editor": {
+                        "left": 576,
+                        "top": 216
+                    }
+                },
+                "3b4dd3fe-cac8-45cc-9dd5-0efbf259f3ac": {
+                    "description": "",
+                    "custom": [
+                        {
+                            "customKey": "portrait",
+                            "customValue": "kamino"
+                        },
+                        {
+                            "customKey": "topstyle",
+                            "customValue": "dialogue"
+                        }
+                    ],
+                    "paragraphs": [
+                        {
+                            "text": "a7eefbcd-aa38-4e71-a8d3-4dd5ccf700bf",
+                            "conditions": []
+                        }
+                    ],
+                    "nodeType": "card",
+                    "links": [
+                        {
+                            "target": "ca1f8b41-dfc8-4a73-befc-f5adba7101ae",
+                            "linkText": "8fffd476-8195-4222-a2dc-3c3da4b16c09",
+                            "conditions": [],
+                            "actions": []
+                        }
+                    ],
+                    "editor": {
+                        "left": 336,
+                        "top": 192
+                    }
+                }
+            }
+        }
+    },
+    "loc": {
+        "na": {
+            "en": "English"
+        },
+        "0445878e-36c0-4519-bb64-80a0777ceaff": {
+            "en": "Hey, you!"
+        },
+        "8586ee80-21bc-420f-b318-5b20012bdfda": {
+            "en": "Me?"
+        },
+        "Main": {
+            "en": "Main"
+        },
+        "fac0188f-cf16-46e6-b7bd-9a216d616898": {
+            "en": "Yes,  I am traveling to a village in the north."
+        },
+        "e6c0d6af-075f-44d7-ae8c-3869b7f20183": {
+            "en": "I am yes. just passing through. Is something going on here?"
+        },
+        "93a54dee-4102-46bd-8f32-cf31a271b0eb": {
+            "en": "First time in the village?"
+        },
+        "7f6a3a9c-c203-458b-b4ac-1c026365aedc": {
+            "en": "We have some excellent vendors here. Maybe you can find a similar item?"
+        },
+        "f727b61c-c3a6-4dd1-8ded-5a919009b0bf": {
+            "en": "Oh, no, this has sentimental value. "
+        },
+        "bdaaf902-d7c9-45b4-aa46-ee3ff2f566f8": {
+            "en": "Yes! It's our annual harvest festival. A bit funny, because we don't actually harvest anything.  Stay a while and sample the great food. "
+        },
+        "7c74b2cd-63f7-49d6-a986-8942f810af14": {
+            "en": "Ok, I will, thanks!"
+        },
+        "4ecd641b-dede-4879-b026-77fb3fc97e40": {
+            "en": "I see. Well, stay a while and enjoy our harvest festival. We don't actually harvest anything, but the food is great!"
+        },
+        "2ef11b18-34de-442a-892d-8021831b0139": {
+            "en": "I will, thanks."
+        },
+        "86f21889-dca8-40b2-bea7-aed1ffce2ddc": {
+            "en": "C_Kiri"
+        },
+        "adcd9beb-c418-49e7-940d-3b24a6416296": {
+            "en": "I love soup. What do you have?"
+        },
+        "ff7b99e3-3aed-452b-9b45-ac1cda19ac39": {
+            "en": "Hello, I'm Kiri! Do you like soup? I hate soup and I want to go home."
+        },
+        "5c9f034d-ca11-4839-92df-7115dd9c7bdc": {
+            "en": "This is not exactly soup weather."
+        },
+        "485c52a8-7793-4499-8f23-93b6fc7f846f": {
+            "en": "That's what I said!!! I might as well be selling snowballs in the middle of winter. But if you buy some, I get to go home sooner."
+        },
+        "94daa50a-7b29-4411-86eb-ca60d189d519": {
+            "en": "Ok. Ok. Sure, what do you have?"
+        },
+        "c2e89526-3481-4479-a29e-360b546427b7": {
+            "en": "I really should not. My money is reserved for an important item."
+        },
+        "e1836639-6afe-44d2-a08f-b6233f1eb718": {
+            "en": "You're going to buy some? Yay! Ummm, there's this green one, and this purple one. I did not ask what they were, sorry."
+        },
+        "7a484698-7b31-4e2d-9aa7-d7f4e4e021f3": {
+            "en": "Yikes?"
+        },
+        "1172afd4-9780-40be-be4f-79b841535772": {
+            "en": "I'll take a bowl of the green one"
+        },
+        "5ebf3b16-46c6-4feb-aeb0-f715c6c28a3f": {
+            "en": "I'll take a bowl of the purple one"
+        },
+        "8068ea80-fd91-46fa-b469-0b2ba0ca33d7": {
+            "en": "..."
+        },
+        "d3e97cac-d320-41b1-8e17-7b5396494be4": {
+            "en": "..."
+        },
+        "934aa53f-3f72-4679-b435-8084a39a4d3a": {
+            "en": "You again!"
+        },
+        "cd2b360a-b643-4e92-9a6e-f43d07971cbb": {
+            "en": "You going to buy some soup this time?"
+        },
+        "9babdbf0-0308-476a-b501-c6863d29c99d": {
+            "en": "Probably not. Just saying hello."
+        },
+        "7228d9e4-9e06-41e0-b380-97657165cfb7": {
+            "en": "Sure, remind me, what do you have?"
+        },
+        "2c22cde1-a77e-4625-9de6-7e16a65ba79a": {
+            "en": "Well, do come back if you change your mind."
+        },
+        "0cb55eea-efc5-4dc3-80c5-efecf72af771": {
+            "en": "I will"
+        },
+        "3808a3c3-4740-44cd-adfc-74ee040275dd": {
+            "en": "More soup?"
+        },
+        "fd5a99d5-82b4-4688-998c-9a7f949f765a": {
+            "en": "The village square is quite busy. Food, dancing, decorations, music. You See:"
+        },
+        "c9634dac-cb32-44dd-8de5-65844a8bcc0b": {
+            "en": "A blue haired woman selling jewelry"
+        },
+        "e9e3ab55-8e19-4a5f-82dd-3b77015f8759": {
+            "en": "A young girl selling bowls of... something."
+        },
+        "fa13b453-e927-4781-86f0-57a6f7932c7c": {
+            "en": "Talk to blue haired woman"
+        },
+        "1c92783e-4cec-4e38-8d90-e51178d45140": {
+            "en": "Talk to young girl"
+        },
+        "5d163044-67fc-4eef-9f7c-4cc784b6270f": {
+            "en": "If it's all the same to you, we can just mix them?"
+        },
+        "a0058cdf-b153-4526-9c6b-2063d309eb62": {
+            "en": "Why the heck not?"
+        },
+        "160c4cc9-1749-4b46-90ce-d1d04ca3daab": {
+            "en": "I'd rather not. Just the purple one is fine."
+        },
+        "e4aeec7b-138c-4afc-896f-95174310acb7": {
+            "en": "Here you go! I would say enjoy, but I cannot guarantee that you will."
+        },
+        "362d79b8-fb88-45f6-9642-f280daf6bc7d": {
+            "en": "Thanks."
+        },
+        "6fdb7e95-252c-481a-be02-30d272b36eb5": {
+            "en": "I'd rather not. Just the green one is fine."
+        },
+        "588e347d-db5e-4d84-8b18-135ec4f8e8f3": {
+            "en": "Kiri, looking just as annoyed as earlier."
+        },
+        "3bffd1f7-b390-4464-bf75-28983c4052d1": {
+            "en": "Talk to Kiri"
+        },
+        "ae41799d-2781-48ca-906e-26a66ae20a93": {
+            "en": "A small demo story for the TvainB parser mod for Kitsune Tails. See the post on Steam for more info."
+        },
+        "1afeb28b-f22c-45a1-8f69-be2392ffdb31": {
+            "en": "Start"
+        },
+        "6e182207-c2ab-428a-81dd-097ceaa78d00": {
+            "en": "C_Kamino"
+        },
+        "a7eefbcd-aa38-4e71-a8d3-4dd5ccf700bf": {
+            "en": "I'm Kamino. I'm only here for demo purposes."
+        },
+        "8fffd476-8195-4222-a2dc-3c3da4b16c09": {
+            "en": "Ok, bye!"
+        },
+        "25a25b97-3963-4ad9-805e-d0a50773b867": {
+            "en": "Kamino."
+        },
+        "ef44b67f-2bc0-46ee-a737-8a063c7da782": {
+            "en": "Talk to Kamino"
+        },
+        "e9079666-da4d-412c-b8c7-d3c1abcdadb1": {
+            "en": "To buy back an item my fool brother sold."
+        },
+        "7791f4bf-e71c-46d4-a976-29aa348549ca": {
+            "en": "Oh really? For what reason?"
+        }
+    },
+    "settings": {
+        "saveInterval": 30,
+        "snapGrid": true
+    },
+    "extra": {
+        "lastSave": "2025-04-19T19:32:41.337Z"
+    }
+}
